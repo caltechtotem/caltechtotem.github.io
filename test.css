@@ -18,8 +18,7 @@ body {
 	height : 100%;
 	display : table-cell;
 	vertical-align : middle;
-	text-align : justify;
-	text-align-last : center;
+	text-align : center;
 }
 
 .container.title {
@@ -51,7 +50,7 @@ body {
 #title {
 	color : #ff6600;
 	font-weight : bold;
-	font-size : 100px;
+	font-size : 12vh
 /*	border-style : solid;*/
 }
 
@@ -67,7 +66,7 @@ body {
 	color : #000000;
 	font-size : 18px;
 	line-height : 6vh;
-	text-align: justify;
+	text-align: center;
 }
 
 a:link {
