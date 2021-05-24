@@ -140,6 +140,7 @@ object {
 
 #main-container .exhibit-container.in-focus ~ .scroll-indicator-controller div span {
   color: #FFF;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
 
 #exhibit1 {
