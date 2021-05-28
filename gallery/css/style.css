@@ -110,6 +110,10 @@ object {
   text-align: left;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  background-image: url("../assets/Dream_of_Caltech_by_Weilai_Yu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #title-container img {
@@ -118,10 +122,10 @@ object {
 
 #title-container article {
   width: 100%;
-  align-self: flex-end;
   color: #FFF;
   padding: 10px;
   align-self: center;
+  background-color: rgba(0,0,0,0.5);
 }
 
 #title-container h1 {
@@ -131,14 +135,9 @@ object {
 #title-container h1, h2, h3 {
   vertical-align: center;
   text-align: center;
-  color: #333;
 }
 
-#main-container #title-container.in-focus ~ .scroll-indicator-controller div span {
-  color: #333;
-}
-
-#main-container .exhibit-container.in-focus ~ .scroll-indicator-controller div span {
+#main-container .in-focus ~ .scroll-indicator-controller div span {
   color: #FFF;
   text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
